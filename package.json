@@ -1,0 +1,50 @@
+{
+    "name": "covid19Information",
+    "version": "0.1.0",
+    "private": true,
+    "scripts": {
+        "serve": "vue-cli-service serve",
+        "build": "vue-cli-service build",
+        "lint": "vue-cli-service lint",
+        "start": "node sever.js"
+    },
+    "dependencies": {
+        "core-js": "^3.6.4",
+        "express": "^4.17.1",
+        "moment": "^2.24.0",
+        "stylus-loader": "^3.0.2",
+        "vue": "^2.6.11",
+        "vue-analytics": "^5.22.1",
+        "vue-google-charts": "^0.3.2",
+        "xlsx": "^0.15.6"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "~4.2.0",
+        "@vue/cli-plugin-eslint": "~4.2.0",
+        "@vue/cli-service": "~4.2.0",
+        "axios": "^0.19.2",
+        "babel-eslint": "^10.0.3",
+        "eslint": "^6.7.2",
+        "eslint-plugin-vue": "^6.1.2",
+        "vue-cli-plugin-axios": "~0.0.4",
+        "vue-cli-plugin-bootstrap": "~1.0.0-alpha.0",
+        "vue-template-compiler": "^2.6.11"
+    },
+    "eslintConfig": {
+        "root": true,
+        "env": {
+            "node": true
+        },
+        "extends": [
+            "plugin:vue/essential"
+        ],
+        "parserOptions": {
+            "parser": "babel-eslint"
+        },
+        "rules": {}
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions"
+    ]
+}
