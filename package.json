@@ -16,7 +16,7 @@
         "vue": "^2.6.11",
         "vue-analytics": "^5.22.1",
         "vue-google-charts": "^0.3.2",
-        "xlsx": "^0.15.6"
+        "xlsx": "^0.17.0"
     },
     "devDependencies": {
         "@vue/cli-plugin-babel": "~4.2.0",
